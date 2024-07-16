@@ -1,0 +1,180 @@
+@import url('../fonts/Work_Sans.css.css');
+html { font-family: 'Work Sans', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Work Sans', sans-serif; }
+}
+
+body{font-family:Work Sans,sans-serif;font-size:16px;font-weight:400!important;color:#383838}
+*{font-family:Work Sans,sans-serif;font-weight:400}
+a:hover,
+a:active,
+a:focus{
+  text-decoration: none;
+}
+::-webkit-input-placeholder {
+    color: #626e77;
+    font-size: 0.81rem;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #626e77;
+    font-size: 0.81rem;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #626e77;
+    font-size: 0.81rem;
+}
+.font-500{font-weight:500!important}
+.form-control{border:1px solid #656565}
+.select2-container{z-index:9999}
+p{margin-bottom:0;color:#212121;font-weight:400}
+.testmonilas_main_heading{margin-bottom:0;font-size:32px;color:#2976a8;text-align:center;font-weight:600}
+@media (max-width:600px){
+.testmonilas_main_heading{margin-bottom:0;font-size:28px;color:#2976a8;text-align:center;font-weight:600}
+}
+
+/*==========================================*/
+/* Banner css*/
+/*==========================================*/
+
+.banner-section-cls{background:url(../images/banner_bg.webp) right center no-repeat;background-size:cover}
+.banner_h1_heding{font-size:45px;text-transform:uppercase;color:#414042;font-weight:600;margin-bottom:0}
+.banner_h1_heding span{font-weight:600;color:#1c75a9}
+@media (max-width:1440px){
+.banner_h1_heding{font-size:38px;text-transform:uppercase;color:#414042;font-weight:600;margin-bottom:0}
+}
+@media (max-width:600px){
+.banner-section-cls{background:url(../images/banner_bg_mob.webp) bottom center no-repeat;background-size:cover}
+.banner_h1_heding{padding-top:25px;text-align:center;font-size:30px;text-transform:uppercase;color:#414042;font-weight:600;margin-bottom:0}
+}
+
+/*==========================================*/
+/* TESTIMONIALS css*/
+/*==========================================*/
+
+.real_result_sec_pad{padding-top:50px;padding-bottom:50px}
+.screenshot_slider .owl-item{padding:0 10px}
+.screenshot_slider .owl-dots{display:none}
+.screenshot_slider .owl-item img{width:100%}
+@media screen and (max-width:1920px) and (min-width:850px){
+.screenshot_slider .owl-next,.screenshot_slider .owl-prev{text-align:center!important;margin-top:-35px;top:-15px;right:0;position:relative}
+.screenshot_slider{text-align:center}
+.screenshot_slider .owl-prev{left:-5px}
+.screenshot_slider .owl-next{right:-5px}
+}
+@media (max-width:850px){
+.screenshot_slider .owl-nav{text-align:center!important;margin-top:15px;top:0;right:0;position:relative}
+.screenshot_slider .owl-nav button{font-size:30px!important;margin:0 6px;color:#000!important}
+.screenshot_slider .owl-item{padding:0}
+}
+@media (max-width:600px){
+.real_result_sec_pad{padding-top:30px;padding-bottom:30px}
+}
+.testmonials_main_content{display:flex;align-items:center}
+.content_written_testmonilas{width:auto;padding:40px 40px 30px;background-color:#f5f9fb;background-position:top left,top right,bottom left;background-repeat:no-repeat;background-image:url(../images/banner-left-top.webp),url(../images/banner-right-top.webp),url(../images/banner-left-bottom.webp);background-size:auto!important}
+.content_written_testmonilas:before{content:"";position:absolute;left:101px;top:0;height:5px;width:83%;border-top:5px solid #1e77ad}
+.content_written_testmonilas_one{width:auto;padding:40px 40px 30px;background-color:#f5f9fb;background-position:top left,top right,bottom left;background-repeat:no-repeat;background-image:url(../images/banner-left-top.webp),url(../images/banner-right-top.webp),url(../images/banner-left-bottom.webp);background-size:auto!important}
+.content_written_testmonilas_one:before{content:"";position:absolute;left:100px;top:0;height:5px;width:90%;border-top:5px solid #1e77ad}
+.testmonials_content_para{width:90%;padding-top:30px;padding-bottom:20px;color:#212121;text-align:left;font-size:16px;display:ruby-text}
+.testmonials_content_para::after{content:url(../images/after-para-col.webp);position:absolute;padding-left:10px;padding-top:10px}
+.after_para_col{width:54px!important}
+.testmonials_content_name{margin-top:30px;margin-bottom:0;font-size:21px;color:#1a74ab;font-weight:700;font-style:italic;text-align:left;line-height:normal}
+.testmonials_content_location{margin-bottom:0;font-size:14px;color:#212121;font-weight:500;font-style:italic;text-align:left;line-height:normal}
+.content_img_box{width:230%;margin-left:-57px}
+@media (max-width:600px){
+.testmonials_main_content{display:flex;flex-flow:column;align-items:center}
+.content_img_box{width:100%;margin-left:0;margin-bottom:20px;order:1}
+.content_written_testmonilas{padding:30px 15px}
+.testmonials_content_para{width:100%;padding-top:30px;padding-bottom:20px;color:#212121;text-align:left;font-size:16px;display:ruby-text}
+.content_written_testmonilas_one:before{content:"";position:absolute;left:100px;top:0;height:5px;width:74%;border-top:5px solid #1e77ad}
+}
+
+/*==========================================*/
+/*  Video playlist css*/
+/*==========================================*/
+
+video {
+  width: 100%;
+}
+
+#playlist {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   height: 360px;
+}
+
+#playlist:after {
+    content: "";
+    display: block;
+    width: 95%;
+    height: 50%;
+    position: absolute;
+    bottom: 0px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 10%, white);
+}
+
+#playlist::-webkit-scrollbar {
+    display: none;
+}
+
+.Video_heading_cls{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+    color: #212121;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.video_link_heading{
+    color: #212121;
+    font-size: 16px;
+    line-height: normal;
+    font-weight: 500;
+}
+
+@media (max-width:600px){
+    .Video_heading_cls{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 21px;
+    color: #212121;
+    font-weight: 600;
+    line-height: normal;
+}
+}
+
+
+.scroll {
+  width: 20px;
+  height: 200px;
+  overflow: auto;
+  float: left;
+  margin: 0 10px;
+}
+
+.scroll5::-webkit-scrollbar {
+  width: 30px;
+}
+ 
+.scroll5::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
+.scroll5::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.scroll5::-webkit-scrollbar-button {
+  background: #666;
+  height: 30px;
+  border-radius: 50%;
+  z-index: ;
+}
