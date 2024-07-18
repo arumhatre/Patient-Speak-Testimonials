@@ -201,5 +201,8 @@ video{width:100%}
 /*  tab css*/
 /*==========================================*/
 
-.nav-link{display:block;padding:.4rem 1rem;color:#2e7caf;font-weight:500;font-size: 16px; border: 1px solid #2e7caf; margin: 5px;}
+.nav-link{display:block;padding:.3rem 1rem;color:#2e7caf;font-weight:500;font-size: 14px; border: 1px solid #2e7caf; margin: 5px;}
 .nav-pills .nav-link.active,.nav-pills .show>.nav-link{color:#fff;background-color:#2e7caf;font-weight:500}
+@media (max-width:600px){
+    .nav-link{display:block;padding:.3rem 1rem;color:#2e7caf;font-weight:500;font-size: 14px; border: 1px solid #2e7caf; margin: 3px;}
+}
