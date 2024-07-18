@@ -39,14 +39,15 @@ p{margin-bottom:0;color:#212121;font-weight:400}
 /*==========================================*/
 
 .banner-section-cls{background:url(../images/banner_bg.webp) right center no-repeat;background-size:cover}
-.banner_h1_heding{font-size:45px;text-transform:uppercase;color:#414042;font-weight:600;margin-bottom:0}
+.banner_h1_heding{font-size:45px;color:#414042;font-weight:600;margin-bottom:0; text-align: left;}
 .banner_h1_heding span{font-weight:600;color:#1c75a9}
 @media (max-width:1440px){
-.banner_h1_heding{font-size:38px;text-transform:uppercase;color:#414042;font-weight:600;margin-bottom:0}
+.banner_h1_heding{font-size:38px;color:#414042;font-weight:600;margin-bottom:0}
 }
 @media (max-width:600px){
 .banner-section-cls{background:url(../images/banner_bg_mob_new.webp) bottom center no-repeat;background-size:cover}
-.banner_h1_heding{padding-top:45px;text-align:center;font-size:30px;text-transform:uppercase;color:#414042;font-weight:600;margin-bottom:0}
+.banner_h1_heding{padding-top:45px;text-align:center;font-size:30px;color:#414042;font-weight:600;margin-bottom:0}
+.banner_rating_cls_new{width: 60%}
 }
 
 
