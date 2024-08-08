@@ -200,7 +200,7 @@ video{width:100%}
 @media (max-width:600px){
 
      #pills-tab {
-        height: 80px;
+        height: 92px;
         overflow-y: scroll;
         overflow-x: hidden;
         display: block;
@@ -240,7 +240,7 @@ video{width:100%}
 
 
 @media (max-width:912px){
-    .content_written_testmonilas:before{content:"";position:absolute;left:112px;top:0;height:5px;width:72%;border-top:5px solid #1e77ad}
+    .content_written_testmonilas:before{content:"";position:absolute;left:112px;top:0;height:5px;width:70%;border-top:5px solid #1e77ad}
 }
 
 
@@ -256,15 +256,15 @@ video{width:100%}
 }
 
 @media (max-width:430px){
-    .content_written_testmonilas:before{content:"";position:absolute;left:112px;top:0;height:5px;width:72%;border-top:5px solid #1e77ad}
+    .content_written_testmonilas:before{content:"";position:absolute;left:112px;top:0;height:5px;width:68%;border-top:5px solid #1e77ad}
 }
 
 @media (max-width:415px){
-    .content_written_testmonilas:before{content:"";position:absolute;left:112px;top:0;height:5px;width:70%;border-top:5px solid #1e77ad}
+    .content_written_testmonilas:before{content:"";position:absolute;left:112px;top:0;height:5px;width:68%;border-top:5px solid #1e77ad}
 }
 
 @media (max-width:390px){
-    .content_written_testmonilas:before{content:"";position:absolute;left:112px;top:0;height:5px;width:69%;border-top:5px solid #1e77ad}
+    .content_written_testmonilas:before{content:"";position:absolute;left:112px;top:0;height:5px;width:68%;border-top:5px solid #1e77ad}
 }
 
 
