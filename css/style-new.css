@@ -211,3 +211,92 @@ video{width:100%}
 }
 
 
+
+/*==========================================*/
+/* TESTIMONIALS css*/
+/*==========================================*/
+
+
+.real_result_sec_pad{padding-top:50px;padding-bottom:50px}
+.testmonilas_slider .owl-dots{display:none}
+.testmonilas_slider .owl-item{height:100%; padding: 0 10px}
+.testmonilas_slider .owl-nav{position:absolute;top:32%;left:0;right:0}
+.testmonilas_slider .owl-nav .owl-next,.testmonilas_slider .owl-nav .owl-prev{position:absolute;height:100px;color:inherit;background:0 0;border:none;stroke:0;z-index:100}
+.testmonilas_slider .owl-prev{left:-20px}
+.testmonilas_slider .owl-next{right:-20px}
+.testmonials_main_content{display:flex;align-items:center}
+.content_written_testmonilas{width:auto;padding:40px 40px 30px;background-color:#f5f9fb;background-position:top left,top right,bottom left;background-repeat:no-repeat;background-image:url(../images/banner-left-top.webp),url(../images/banner-right-top.webp),url(../images/banner-left-bottom.webp);background-size:auto!important}
+.content_written_testmonilas:before{content:"";position:absolute;left:110px;top:0;height:5px;width:65%;border-top:5px solid #1e77ad}
+/*.testmonials_content_para p{padding-top:30px;padding-bottom:20px;color:#212121;text-align:left;font-size:16px;display:ruby-text}
+.testmonials_content_para p::after{content:url(../images/after-para-col.webp);position:absolute;padding-left:10px;padding-top:10px}*/
+.after_para_col{width:54px!important}
+.testmonials_content_name{margin-top:30px;margin-bottom:0;font-size:21px;color:#1a74ab;font-weight:700;font-style:italic;text-align:left;line-height:normal}
+.testmonials_content_location{margin-bottom:0;font-size:14px;color:#212121;font-weight:500;font-style:italic;text-align:left;line-height:normal}
+.content_img_box{width:100%;margin-left:-57px}
+
+@media (max-width:1024px){
+    .content_written_testmonilas:before{content:"";position:absolute;left:112px;top:0;height:5px;width:79%;border-top:5px solid #1e77ad}
+}
+
+
+@media (max-width:912px){
+    .content_written_testmonilas:before{content:"";position:absolute;left:112px;top:0;height:5px;width:72%;border-top:5px solid #1e77ad}
+}
+
+
+@media (max-width:600px){
+.real_result_sec_pad{padding-top:30px;padding-bottom:30px}
+.testmonials_main_content{display:flex;flex-flow:column;align-items:center}
+.content_img_box{width:100%;margin-left:0;margin-bottom:20px;order:1}
+.content_written_testmonilas{padding:30px 15px;height:auto}
+.testmonials_content_para p{width:100%;padding-top:30px;padding-bottom:20px;color:#212121;text-align:left;font-size:16px;display:ruby-text}
+.testmonilas_slider .owl-prev img{width:30px;height:30px}
+.testmonilas_slider .owl-next img{width:30px;height:30px}
+.testmonilas_slider .owl-nav{position:absolute;top:35%;left:5px;right:5px}
+}
+
+@media (max-width:430px){
+    .content_written_testmonilas:before{content:"";position:absolute;left:112px;top:0;height:5px;width:72%;border-top:5px solid #1e77ad}
+}
+
+@media (max-width:415px){
+    .content_written_testmonilas:before{content:"";position:absolute;left:112px;top:0;height:5px;width:70%;border-top:5px solid #1e77ad}
+}
+
+@media (max-width:390px){
+    .content_written_testmonilas:before{content:"";position:absolute;left:112px;top:0;height:5px;width:69%;border-top:5px solid #1e77ad}
+}
+
+
+@media (max-width:375px){
+    .content_written_testmonilas:before{content:"";position:absolute;left:110px;top:0;height:5px;width:68%;border-top:5px solid #1e77ad}
+}
+
+@media (max-width:360px){
+    .content_written_testmonilas:before{content:"";position:absolute;left:111px;top:0;height:5px;width:66%;border-top:5px solid #1e77ad}
+}
+
+
+
+.add-read-more.show-less-content .second-section,
+.add-read-more.show-less-content .read-less {
+   display: none;
+}
+
+.add-read-more.show-more-content .read-more {
+   display: none;
+}
+
+.add-read-more .read-more,
+.add-read-more .read-less {
+   font-weight: bold;
+   margin-left: 2px;
+   color: blue;
+   cursor: pointer;
+}
+
+.add-read-more{
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
