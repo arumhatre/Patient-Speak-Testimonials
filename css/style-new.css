@@ -291,12 +291,11 @@ video{width:100%}
 .add-read-more .read-less {
    font-weight: bold;
    margin-left: 2px;
-   color: blue;
+   color: #212121;
    cursor: pointer;
 }
 
 .add-read-more{
-  max-width: 600px;
   width: 100%;
   margin: 0 auto;
 }
