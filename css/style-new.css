@@ -264,12 +264,12 @@ video{width:100%}
 }
 
 @media (max-width:390px){
-    .content_written_testmonilas:before{content:"";position:absolute;left:112px;top:0;height:5px;width:68%;border-top:5px solid #1e77ad}
+    .content_written_testmonilas:before{content:"";position:absolute;left:112px;top:0;height:5px;width:64%;border-top:5px solid #1e77ad}
 }
 
 
 @media (max-width:375px){
-    .content_written_testmonilas:before{content:"";position:absolute;left:110px;top:0;height:5px;width:68%;border-top:5px solid #1e77ad}
+    .content_written_testmonilas:before{content:"";position:absolute;left:110px;top:0;height:5px;width:64%;border-top:5px solid #1e77ad}
 }
 
 @media (max-width:360px){
