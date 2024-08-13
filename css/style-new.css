@@ -131,11 +131,13 @@ video{width:100%}
 .vid-list:after{content:"";display:block;width:100%;height:52%;position:sticky;bottom:0;background:linear-gradient(to bottom,rgba(255,255,255,0) 10%,#fff)}
 .vid-list::-webkit-scrollbar{display:none}
 
-.vid-list li{
-    display: ruby-text;
-    margin-bottom: 15px;   
+.vid-list li a{
+    display: inline-flex;
+    margin-bottom: 15px;
+    align-items: center;
+
 }
-.video_link_heading{color:#212121;font-size:16px;line-height:normal;font-weight:500}
+.video_link_heading{color:#212121;font-size:16px;line-height:normal;font-weight:500; padding-left: 12px;}
 .Video_heading_cls{margin-top:10px;margin-bottom:10px;text-align:left;font-size:24px;color:#212121;font-weight:600;line-height:normal}
 
 
