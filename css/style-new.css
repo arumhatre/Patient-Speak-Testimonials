@@ -191,6 +191,6 @@ video{width:100%}
 .custom-select-box-mobile{display:none}
 .custom-select-box-mob{display:block}
 }
-.custom-select-f{display:block;padding:20px !important;color:#2e7caf;font-weight:500;font-size:16px;border:1px solid #2e7caf;width:100%;border-radius:4px;outline:0; background: #fff}
+.custom-select-f{display:block;padding:10px !important;color:#2e7caf;font-weight:500;font-size:16px;border:1px solid #2e7caf;width:100%;border-radius:4px;outline:0; background: #fff}
 .custom-select-f option{background-color:#fff;color:#212121}
 .custom-select-f:focus{background-color:#2e7caf;color:#fff;outline:0;border-color:#00f}
