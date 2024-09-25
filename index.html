@@ -141,6 +141,17 @@
                         <div class="testmonials_main_content">
                           <div class="content_written_testmonilas">
                             <div class="testmonials_content_para">
+                              <p class="add-read-more show-less-content">We choose to go to the moon.We choose to go to the moon.We choose to go to the moon.We choose to go to the moon. </p>
+                            </div>
+                            <p class="testmonials_content_name"> - G. Srinivas </p>
+                            <p class="testmonials_content_location"> Vishakhapatnam </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <div class="testmonials_main_content">
+                          <div class="content_written_testmonilas">
+                            <div class="testmonials_content_para">
                               <p class="add-read-more show-less-content">We choose to go to the moon. We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard. We choose to go to the moon. We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard. We choose to go to the moon. We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard. We choose to go to the moon. We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard. </p>
                             </div>
                             <p class="testmonials_content_name"> - G. Srinivas </p>
@@ -238,7 +249,7 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
+            <!-- <div class="tab-pane fade" id="pills-two" role="tabpanel" aria-labelledby="pills-two-tab">
               <div class="row">
                 <div class="col-12 text-center mt-5">
                   <h2 class="testmonilas_main_heading mb-3">Real Results</h2> </div>
@@ -360,7 +371,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
             <div class="tab-pane fade" id="pills-three" role="tabpanel" aria-labelledby="pills-three-tab">03</div>
             <div class="tab-pane fade" id="pills-four" role="tabpanel" aria-labelledby="pills-four-tab">04</div>
             <div class="tab-pane fade" id="pills-five" role="tabpanel" aria-labelledby="pills-five-tab">05</div>
@@ -436,8 +447,6 @@
   <script src="js/jquery.min.js" data-cfasync="false"></script>
   <script src="js/bootstrap.bundle.min.js" data-cfasync="false"></script>
   <script src="js/owl.carousel.min.js" data-cfasync="false"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.3.1/smooth-scrollbar.js" data-cfasync="false"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.3.1/plugins/overscroll.js" data-cfasync="false"></script>
   <script>
   $(document).ready(function() {
     var owl = $(".screenshot_slider, #googlerating_slider").owlCarousel({
@@ -472,7 +481,7 @@
     $(".owl-nav .owl-next").attr("role", "button");
   });
   </script>
-  <script>
+ <!--  <script>
   $(document).ready(function() {
     var owl = $(".testmonilas_slider").owlCarousel({
       loop: !0,
@@ -506,6 +515,36 @@
     $(".owl-nav .owl-prev").attr("role", "button");
     $(".owl-nav .owl-next").attr("role", "button");
   });
+  </script> -->
+    <script>
+  $(document).ready(function() {
+    $(".testmonilas_slider").owlCarousel({
+      loop: !0,
+      responsiveClass: !0,
+      nav: !0,
+      margin: 0,
+      autoplay: !0,
+      autoplayTimeout: 4e3,
+      smartSpeed: 400,
+      center: !0,
+      navText: ["<img src='images/previmage.webp' alt='01 prev' width='40' height='40'>", "<img src='images/nextimage.webp' alt='01 next' width='40' height='40'>"],
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 1
+        },
+        768: {
+          items: 2
+        },
+        1200: {
+          items: 3
+        }
+      }
+    });
+    $(".owl-nav .owl-prev").attr("role", "button"), $(".owl-nav .owl-next").attr("role", "button")
+  });
   </script>
   <script>
   /*JS FOR SCROLLING THE ROW OF THUMBNAILS*/
@@ -523,7 +562,7 @@
   $(document).ready(function() {
     function AddReadMore() {
       //This limit you can set after how much characters you want to show Read More.
-      var carLmt = 250;
+      var carLmt = 200;
       // Text to show when text is collapsed
       var readMoreTxt = " ...read more";
       // Text to show when text is expanded
